@@ -9,7 +9,7 @@ namespace Tyuiu.TomilovDA.Sprint3.Task1.V27.Test
         public void TestMethod1()
         {
             DataService dataService = new DataService();
-            Assert.AreEqual(128.708, dataService.GetMultiplySeries(0.75,1,5));
+            Assert.AreEqual(419028.1, dataService.GetMultiplySeries(0.75,1,5));
         }
     }
 }

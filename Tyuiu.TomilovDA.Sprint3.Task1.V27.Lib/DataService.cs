@@ -9,7 +9,7 @@ namespace Tyuiu.TomilovDA.Sprint3.Task1.V27.Lib
             double ans = 1;
             while (startValue <= stopValue)
             {
-                ans += Math.Pow(1 / Math.Pow(value, startValue), 3);
+                ans *= Math.Pow(1 / Math.Pow(value, startValue), 3);
                 startValue++;
             }
             return Math.Round(ans,3);
