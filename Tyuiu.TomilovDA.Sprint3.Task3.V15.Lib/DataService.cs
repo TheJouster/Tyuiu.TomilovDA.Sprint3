@@ -24,7 +24,7 @@ namespace Tyuiu.TomilovDA.Sprint3.Task3.V15.Lib
                 {
                     count = 0;
                 }
-                if (count < minCount && count > 1)
+                if (count < minCount && count != 0)
                 {
                     minCount = count;
                 }
